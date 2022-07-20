@@ -1,0 +1,21 @@
+.promo {
+	background: url(../img/bg3.jpg) no-repeat center/cover;
+	min-height: 818px;
+	padding: 80px 0 0 80px;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	&__title {
+		font-size: 112px;
+		line-height: 90px;
+		color: $main-color;
+	}
+	&__descr {
+		width: 576px;
+		font-size: 24px;
+		line-height: 36px;
+		color: $main-color;
+	}
+
+}

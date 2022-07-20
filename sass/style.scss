@@ -1,0 +1,26 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+@import 'libs/swiper';
+
+@import 'base/variables';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/carousel';
+@import 'blocks/feautered';
+@import 'blocks/about';
+@import 'blocks/wemake';
+@import 'blocks/milkshakes';
+@import 'blocks/promo';
+@import 'blocks/feed';

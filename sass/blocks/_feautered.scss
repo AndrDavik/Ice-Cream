@@ -1,0 +1,23 @@
+.feautered {
+    padding: 80PX;
+    min-height: 420px;
+    background-color: $bg-color;
+    // width: 100vw;
+    &__title {
+        font-size: 31px;
+        line-height: 48px;
+        text-align: center;
+        color: $main-color;
+    }
+    &__icons {
+        margin-top: 48px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    &__icon {
+        width: 212px;
+        display: flex;
+        justify-content: center;
+    }
+}

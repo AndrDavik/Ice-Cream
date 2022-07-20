@@ -1,0 +1,24 @@
+.feed {
+    min-height: 1027px;
+    background-color: $main-color;
+    padding-top: 135px;
+    &__title {
+        font-size: 112px;
+        line-height: 168px;
+        text-align: center;
+        color: #ECE9E9;
+    }
+    &__descr {
+        margin: 0 auto;
+        width: 800px;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #ECE9E9;
+    }
+    &__slide {
+        display: flex;
+        justify-content: center;
+    }
+
+}

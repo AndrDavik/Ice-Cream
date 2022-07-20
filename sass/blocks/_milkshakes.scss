@@ -1,0 +1,27 @@
+.milkshakes {
+	min-height: 800px;
+	background: url(../img/bg2.jpg) no-repeat 50%/cover;
+	&__wrapper {
+		padding-top: 57px;
+		min-height: 304px;
+		background: rgba(236, 233, 233, 0.77);
+	}
+	&__title {
+		text-align: center;
+		font-size: 64px;
+		line-height: 86px;
+		span {
+			font-size: 72px;
+			line-height: 86px;
+			color: $main-color;
+		}
+	}
+	&__descr {
+		font-size: 24px;
+		line-height: 36px;
+		text-align: center;
+		p {
+			margin: 0;
+		}
+	}
+}

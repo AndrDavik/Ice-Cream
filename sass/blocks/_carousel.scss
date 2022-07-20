@@ -1,0 +1,30 @@
+.carousel {
+    padding: 20px 0;
+    min-height: 540px;
+    background-color: $bg-color;
+    &__inner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        
+    }
+    .slick-prev {
+        margin-left: 10px;
+        border: none;
+        background-color: $bg-color;
+        outline: none;
+        img {
+            height: 80px;
+        }
+    
+    }
+    .slick-next {
+        border: none;
+        background-color: $bg-color;
+        margin-right: 10px;
+        outline: none;   
+        img {
+            height: 80px;
+        } 
+    }
+}

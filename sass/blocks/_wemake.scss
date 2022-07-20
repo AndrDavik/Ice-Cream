@@ -1,0 +1,29 @@
+.wemake {
+    background-color: $main-color;
+    position: relative;
+    // width: 100vw;
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(4, 188px) / repeat(4, minmax(300px, auto));
+        grid-auto-rows: 188px;
+        grid-gap: 10px;
+        p {
+            font-size: 48px;
+            line-height: 62px;
+            color: #ECE9E9;
+        }
+    }
+    &__title {
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    &__text {
+        text-align: center;
+        font-size: 102px;
+        line-height: 102px;
+        color: #ECE9E9;
+    }
+}
